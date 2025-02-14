@@ -10,5 +10,5 @@ int average(int numbers[], int n)
     }
 
     // Calculate and return the average
-    return sum / n;
+    return (float)sum / n;
 }
