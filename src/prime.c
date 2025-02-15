@@ -11,7 +11,7 @@ bool prime(int num)
     }
 
     // Check for factors from 2 to sqrt(num)
-    for (int i = 2; i * i <= num; i++)
+    for (int i = 2; i *i<= sqrt(num); i++)
     {
         if (num % i == 0)
         {
