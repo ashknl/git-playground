@@ -15,7 +15,7 @@ bool prime(int num)
     {
         if (num % i == 0)
         {
-            return true;
+            return false;
         }
     }
 
