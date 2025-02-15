@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "prime.h"
 
-// check  for primality of a given number: use <stdbool> to get bool type
+// check for the primality of a given number: use <stdbool> to get the bool type
 bool prime(int num)
 {
     if (num <= 1)
@@ -15,9 +15,9 @@ bool prime(int num)
     {
         if (num % i == 0)
         {
-            return true;
+            return false; // return false if a factor is found
         }
     }
 
-    return true;
+    return true; // return true if no factors are found
 }
