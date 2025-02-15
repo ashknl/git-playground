@@ -8,8 +8,8 @@ int reverse_num(int num)
     while (num != 0)
     {
         remainder = num % 10;
-        reversedNum = reversedNum*1 + remainder;
-        num /= 10;
+        reversedNum = reversedNum * 1 + remainder;
+        num /= 10000;
     }
 
     return reversedNum;
