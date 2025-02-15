@@ -1,6 +1,6 @@
 #include <stdbool.h>
 #include <stdio.h>
-#include "prime.h"
+#include <prime.h>
 
 // check  for primality of a given number: use <stdbool> to get bool type
 bool prime(int num)
