@@ -8,7 +8,7 @@ int reverse_num(int num)
     while (num != 0)
     {
         remainder = num % 10;
-        reversedNum = reversedNum*1 + remainder;
+        reversedNum = reversedNum*10 + remainder;
         num /= 10;
     }
 
