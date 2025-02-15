@@ -1,5 +1,4 @@
-#include <stdbool.h>
-#include <stdio.h>
+
 #include "prime.h"
 
 // check  for primality of a given number: use <stdbool> to get bool type
@@ -11,7 +10,7 @@ bool prime(int num)
     }
 
     // Check for factors from 2 to sqrt(num)
-    for (int i = 2; i * i <= num; i++)
+    for (int i = 2;  i <= num; i++)
     {
         if (num % i == 0)
         {
